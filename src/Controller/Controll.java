@@ -1,5 +1,5 @@
 package Controller;
 
-public class NewClass {
+public class Controll {
     
 }
