@@ -30,8 +30,8 @@ public class Controller implements ActionListener{
         String info[] = new String[4];
         info[0] = model.setName(view.txtName.getName());
         info[1] = model.setEleccion((String) view.btneleccion.getSelectedItem());
-        //info[2] = model.setAlmacen(view.txtAlmacen.get);
-        //info[3] =model.setPrecio(view.TxtPrecio.g);
+        info[2] = model.setAlmacen(view.txtAlmacen.get);
+        info[3] =model.setPrecio(view.TxtPrecio.g);
         
 
        
